@@ -23,7 +23,7 @@ Foi utilizada a [API da Vagalume](https://api.vagalume.com.br/) para as requisi√
 
 **Bibliotecas** 
 
- * jQuery ^3.3.1
+ * jQuery v2.1.0
 
 
 
