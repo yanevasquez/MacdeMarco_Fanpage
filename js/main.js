@@ -39,10 +39,10 @@ function trasImg(album){
 	  .then( function(data){ 
 			let str = data.discography.item.map(item=> `<div class='info'>${trasImg(item)}<ul>${trasMusicas(item)}</ul></div>`).join('')
 			response.innerHTML = str
-      let musics = document.querySelectorAll('span.music')
-      musics.forEach(e=>{
-        e.addEventListener('click',()=>{
-          geraLetras(e.innerHTML)
+      	let musics = document.querySelectorAll('span.music')
+      	musics.forEach(e=>{
+        	e.addEventListener('click',()=>{
+          	geraLetras(e.innerHTML)
         })
       })
       
