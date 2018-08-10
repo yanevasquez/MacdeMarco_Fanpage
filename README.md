@@ -2,7 +2,7 @@
 
 Projeto para disciplina de Linguagem de Script
 
-![Screenshot](scre.JPG)
+![Screenshot](screenshot.png)
 
 ## Descrição
 
