@@ -34,16 +34,14 @@ html, body {
 }
 
 .info h3{
-    font-size: 23px;
-    color: #000;
-    text-align: center;
-    margin: 5px;
-    padding: 28px 15px;
-    color:#29608c/* #09755b*/;
-    text-align: center;
- 
-    font-family: 'Bungee', cursive;
-  
+   font-size: 23px;
+   color: #000;
+   text-align: center;
+   margin: 5px;
+   padding: 28px 15px;
+   color:#29608c/* #09755b*/;
+   text-align: center;
+   font-family: 'Bungee', cursive;
 }
 
 span:focus, span:active {
@@ -145,6 +143,8 @@ ul{
   font-size: 56px;
   text-align: center
 }
+
+/**MENU**/
 .container ul.menu {
   height: 39px;
   width: 40px;
@@ -160,6 +160,7 @@ ul{
   width: 27px;
   transition: transform .3s, width .3s;
 }
+
 .container .clicar_menu li:nth-child(1) {
   top: 18px;
   transform: rotate(135deg);
@@ -264,15 +265,6 @@ span.music{
   height: 99px;
 }
 
-#contato{
-  font-size: 1rem;
-  background-color: #0d0d0d;
-  padding: 3em 0;
-  text-align: center;
-  letter-spacing: 1px;
-  font-family: 'Andika', sans-serif;
-  color: #ffffff
-}
 #container2 p {
   font-size: 20px;
   padding-top: 3%;
