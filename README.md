@@ -20,8 +20,8 @@ Foi utilizada a [API da Vagalume](https://api.vagalume.com.br/) para as requisi√
 
 ## Requisitos
 
-
 **Bibliotecas** 
+  * jQuery
 
 
 
