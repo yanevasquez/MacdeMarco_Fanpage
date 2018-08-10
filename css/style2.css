@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Nanum+Pen+Script');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Bungee+Shade|Nanum+Pen+Script');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans|Bungee+Shade|Chau+Philomene+One');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Fira+Sans|Sanchez');
+@import url('https://fonts.googleapis.com/css?family=Andika');
+
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0px;
+  background: #f2f2f2
+
+}
+
+.imgAlbum {
+
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    min-height: 11rem;
+    min-width: 20rem;
+    /* padding-left: 38px; */
+    align-items: center
+
+}
+.info h2{
+
+   font-family: 'Bungee', cursive;
+}
+
+.info h3{
+    font-size: 23px;
+    color: #000;
+    text-align: center;
+    margin: 5px;
+    padding: 28px 15px;
+    color:#29608c/* #09755b*/;
+    text-align: center;
+ 
+    font-family: 'Bungee', cursive;
+  
+}
+
+span:focus, span:active {
+    background:#aab4ab
+
+}
+.info span:hover{
+    background-color: #aab4ab
+}
+
+ img {
+  height: 197px;
+  margin: -3px;
+ 
+}
+
+.info .ul {
+  background: #e8b030
+
+    
+}
+.response {
+  margin: 14px 
+
+}
+.response li {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Sanchez', serif;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 22px;
+    margin-top: 16px
+}
+.response ul li:before {
+    font-weight: bold;
+    counter-increment: item;
+    content: counter(item)'. ';
+    border-left: 1px solid #000;
+    padding: 15px;
+    font-size: 24px
+}
+ul{
+    list-style-type: none;
+    counter-reset: item
+ 
+}
+.response ul{
+    column-count: 2;
+    justify-content:center;
+    padding-top: 0px;
+    margin-top: 32px;
+    width: 777px  
+}
+
+.response .info{
+  display: flex;
+  border: 1px solid #c5c5c5;
+  border-radius: 7px;
+  background-color: #ffffff;
+  margin: 53px;
+
+}
+
+.container h1 {
+  color: #e8b030;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Bangers', cursive;
+  margin-top: 96px;
+  margin-bottom: 39px;
+}
+.container {
+  /* background-image: url(../img/~~.png); */
+  text-align: center;
+  background-repeat: no-repeat;
+  background-color: black/* #e8b030*/;
+  padding-top: 13px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 60px;}
+
+.container h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+  color:#a94e90;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center
+
+}
+
+.subtitulo h1{
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Satisfy', cursive;
+  color: #194161;
+  font-size: 56px;
+  text-align: center
+}
+.container ul.menu {
+  height: 39px;
+  width: 40px;
+  margin-left: -23px;
+  position: fixed;
+  background: #e8b030
+  
+}
+.container ul.menu li {
+  background: #101010;
+  margin: 5px;
+  height: 6px;
+  width: 27px;
+  transition: transform .3s, width .3s;
+}
+.container .clicar_menu li:nth-child(1) {
+  top: 18px;
+  transform: rotate(135deg);
+  transition: transform .3s;
+}
+.container .clicar_menu li:nth-child(2) {
+  width: 0;
+  transition: width .3s;
+}
+.container .clicar_menu li:nth-child(3) {
+  bottom: 18px;
+  transform: rotate(-135deg);
+  transition: transform .3s;
+}
+ ul.links.clicar_links{
+    margin-left: -50px;
+    margin-left: 2px;
+    padding-top: -21px;
+    border-top: 41;
+    position: fixed:-50px;
+    padding-top: -21px;
+    border-top: 41;
+    position: fixed
+
+}
+.container ul.links {
+  overflow: hidden;
+  background:#e8b030;
+  width: 0px;
+  margin-left: 0px;
+  transition: width .4s, margin-left .4s;
+  position: fixed;
+  padding: 0px;
+  display: inline-flex;
+}
+.container ul.links li {
+  margin: 16px;
+}
+.container ul.links li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color .5s;
+  text-transform: uppercase;
+  font-size: 31px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Bangers', cursive;
+  transition: color .5s, margin-left .5s;
+}
+.container ul.links li a:hover {
+  color: black;
+  margin-left: 20px;
+  transition: color .5s, margin-left .5s;
+}
+.container .clicar_links {
+  width: 507px !important;
+  margin-left: -244px !important;
+  transition: width .4s, margin-left .4s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  align-items: center;
+  height: 46px;
+}
+
+
+span.music{
+  cursor: pointer;
+}
+.box{ 
+  position: fixed;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  left: 30%;
+  background-color: #ffffff;
+  box-shadow: 0 0 25px  5px #999;
+  z-index: 101;
+  padding-bottom:  14px;
+  padding-left: 14px;
+  padding-right:  14px;
+  border-radius: 4px;
+  width: auto;
+  height: auto
+}
+.lyric{
+  margin-top: 5px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin-bottom: 4px
+
+}
+.box img{
+  margin-top: 6px;
+  margin-left: 30px;
+  width: 450px;
+  height: 106px;
+  margin-top: 6px;
+  width: 120px;
+  height: 99px;
+}
+
+#contato{
+  font-size: 1rem;
+  background-color: #0d0d0d;
+  padding: 3em 0;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Andika', sans-serif;
+  color: #ffffff
+}
+#container2 p {
+  font-size: 20px;
+  padding-top: 3%;
+}
+
+/*FOOTER*/
+#contato{
+  font-size: 12px;
+  background-color: #0d0d0d;
+  padding: 3em 0;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Andika', sans-serif;
+  color: #ffffff;
+  padding-bottom:10px
+}
+.container2 p {
+  font-size: 12px;
+  padding-top: 3%;
+}
+
+#contato hr {
+  border-color: rgb(153, 152, 152);
+  margin-top: 12px;
+  margin-left: 156px;
+  margin-right: 165px;
+  margin-bottom: 0px
+}
+#contato span {
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Andika', sans-serif;
+  font-style: bold
+}
+#contato a .fa-github{
+  font-size: 30px
+}
+#contato a {
+  color:goldenrod;
+  text-decoration: none;
+  font-size: 13px
+}
+#contato a:hover {
+  color:white;
+  text-decoration: none;
+}
+
+.logo img{
+  height: 44px;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.vagaLogo {
+  width: 89px;
+  height: 80px;
+}
