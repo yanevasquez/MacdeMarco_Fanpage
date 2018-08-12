@@ -1,6 +1,5 @@
 # Mac deMarco: Fanpage
 
-Projeto para disciplina de Linguagem de Script
 
 ![Screenshot](screenshot.png)
 
@@ -16,12 +15,11 @@ Exibir informações sobre toda discografia e letras do cantor.
 
 ## Recursos da API
 
-Foi utilizada a [API da Vagalume](https://api.vagalume.com.br/) para as requisições da discografia do cantor, exibindo informações sobre cada álbum, como: nome, imagem, ano, todas as músicas e requisição das letras.
+Foi utilizada a [API da Vagalume](https://api.vagalume.com.br/) para as requisições da discografia, exibindo informações sobre nome, imagem, ano, todas as músicas de cada álbum e também requisição de todas as letras.
 
 
 ## Requisitos
 
-**Bibliotecas** 
   * jQuery
 
 
