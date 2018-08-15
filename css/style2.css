@@ -7,8 +7,6 @@
 @import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Fira+Sans|Sanchez');
 @import url('https://fonts.googleapis.com/css?family=Andika');
 
-
-
 html, body {
   height: 100%;
   width: 100%;
@@ -196,9 +194,11 @@ ul{
   padding: 0px;
   display: inline-flex;
 }
+
 .container ul.links li {
   margin: 16px;
 }
+
 .container ul.links li a {
   color: #ffffff;
   text-decoration: none;
@@ -223,11 +223,12 @@ ul{
   align-items: center;
   height: 46px;
 }
-
+/**BOX MODAL**/
 
 span.music{
   cursor: pointer;
 }
+
 .box{ 
   position: fixed;
   margin-top: 5px;
@@ -243,6 +244,13 @@ span.music{
   width: auto;
   height: auto
 }
+
+.box h2{
+  margin-top:2px;
+  text-align:center;
+  color:black
+} 
+
 .lyric{
   margin-top: 5px;
   font-family: 'Quattrocento Sans', sans-serif;
@@ -256,13 +264,12 @@ span.music{
 
 }
 .box img{
-  margin-top: 6px;
-  margin-left: 30px;
-  width: 450px;
-  height: 106px;
-  margin-top: 6px;
-  width: 120px;
-  height: 99px;
+    margin-top: 6px;
+    margin-left: 38%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    width: 120px;
+    height: 99px;
 }
 
 #container2 p {
