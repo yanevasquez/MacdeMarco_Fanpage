@@ -68,7 +68,7 @@ function geraLetras(music) {
               transition: 'slideDown',      
           })
       
-      $('.box').css('display', 'block')
+      $('.box').css('left','33%')
       $('.box').html(`<img src='img/som.gif'><h2>${namemusic}</h2><div class='lyric'>${result}</div>`)
       
   });
