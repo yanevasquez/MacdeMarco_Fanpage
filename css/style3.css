@@ -12,12 +12,10 @@ html, body {
   width: 100%;
   margin:0px;
   background: #f2f2f2;
-font-family: 'Orbitron', sans-serif;
-
+  font-family: 'Orbitron', sans-serif;
 }
 
-
-#todo{
+#todo {
     display:flex;
     justify-content: center;
     margin: 0;
@@ -27,9 +25,8 @@ font-family: 'Orbitron', sans-serif;
     margin-bottom: 43px;
 }
 
-
 .container h1 {
-  	color: #e8b030;
+  color: #e8b030;
   text-transform: uppercase;
   font-size: 100px;
   font-family: 'Nanum Pen Script', cursive;
@@ -37,6 +34,7 @@ font-family: 'Orbitron', sans-serif;
   margin-top: 96px;
   margin-bottom: 39px;
 }
+
 .container {
   /* background-image: url(../img/~~.png); */
   text-align: center;
@@ -47,7 +45,8 @@ font-family: 'Orbitron', sans-serif;
   margin-bottom: 0px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 60px;}
+  padding-bottom: 60px;
+}
 
 .container h2 {
   font-family: 'Permanent Marker', cursive;
@@ -60,22 +59,23 @@ font-family: 'Orbitron', sans-serif;
 
 }
 
-.subtitulo h1{
+.subtitulo h1 {
   font-family: 'Permanent Marker', cursive;
   font-family: 'Satisfy', cursive;
   color: #194161;
   font-size: 56px;
   text-align: center
 }
+
 .container ul.menu {
   list-style: none;
   height: 39px;
   width: 40px;
   margin-left: -23px;
   position: fixed;
-  background: #e8b030
-  
+  background: #e8b030  
 }
+
 .container ul.menu li {
   background: #101010;
   margin: 5px;
@@ -146,13 +146,6 @@ font-family: 'Orbitron', sans-serif;
   align-items: center;
   height: 46px;
 }
-/*
-.clearfix{
-
-    width: 40%;
-    background: cadetblue;
-    margin-top: 6px;
-}*/
 
 #bloco_player{
 	margin-top: 6em;
@@ -189,11 +182,10 @@ font-family: 'Orbitron', sans-serif;
 }
 
 .lista_vertical li {
-   /* width: 25%;
-    float: left;*/
     list-style-type: none;
     margin: 0;
 }
+
 #buttons .material-icons {
     font-family: 'Material Icons';
     border: 1px solid #555354;
@@ -235,10 +227,11 @@ input#volume: {
 	margin-left: 32px;
 	
 }
+
 .clearfix img{
     height: 51px;
     margin: -3px;
-        margin-left: 71px;
+    margin-left: 71px;
     width: 51px;
 
 }
@@ -300,21 +293,16 @@ button#next{
 #playlist li:hover {
     cursor: pointer;
     margin:5px;
-  
     font-weight: bold;
 }
 
-
-
-
-h3{
-margin-top: 0px;
+h3 {
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 42px;
-
 }
-img.profile{
 
+img.profile{
     width: 80px;
     margin-left: 51px;
 }
@@ -335,7 +323,6 @@ img.profile{
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
 }
-
 
 /*FOOTER*/
 
