@@ -15,16 +15,7 @@ html, body {
   font-family: 'Orbitron', sans-serif;
 }
 
-#todo {
-    display:flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
-    margin-bottom: 43px;
-}
-
+/*HEADER*/
 .container h1 {
   color: #e8b030;
   text-transform: uppercase;
@@ -34,6 +25,19 @@ html, body {
   margin-top: 96px;
   margin-bottom: 39px;
 }
+
+@media all and (max-width: 500px) {
+.container h1 {
+    font-size: 83px;
+   }
+ }
+
+@media all and (max-width: 768px) {
+.container h1 {
+    font-size: 83px;
+    margin-top: 1.4em;
+   }
+ }
 
 .container {
   /* background-image: url(../img/~~.png); */
@@ -67,11 +71,12 @@ html, body {
   text-align: center
 }
 
+/*MENU*/
 .container ul.menu {
   list-style: none;
   height: 39px;
   width: 40px;
-  margin-left: -23px;
+  margin-left: -52px;
   position: fixed;
   background: #e8b030  
 }
@@ -115,13 +120,42 @@ html, body {
   margin-left: 0px;
   transition: width .4s, margin-left .4s;
   position: fixed;
-  padding: 0px;
+  padding-left: 0px;
   display: inline-flex;
 }
+
+@media all and (max-width: 500px) {
+ .container ul.links {
+    overflow: hidden;
+    /* width: 0px; */
+    margin-left: 11px;
+    transition: width .4s, margin-left .4s;
+    position: fixed;
+    padding-left:0px;
+    display: unset;
+    background: #000000;
+   }
+ }
+
+
 .container ul.links li {
-  margin: 16px;
+  margin-left: 3em;
   list-style: none;
 }
+
+@media all and (max-width: 500px) {
+    .container ul.links li {
+    	border: 2px solid #c29816;
+        margin-left: 1em;
+        margin-top: 1em;
+        margin-right: 7em;
+        width: 220px;
+        padding: -7px;
+        height: 2em;
+        margin-bottom: 1em;
+   }
+}
+
 .container ul.links li a {
   color: #ffffff;
   text-decoration: none;
@@ -132,23 +166,49 @@ html, body {
   font-family: 'Bangers', cursive;
   transition: color .5s, margin-left .5s;
 }
+
 .container ul.links li a:hover {
   color: black;
   margin-left: 20px;
   transition: color .5s, margin-left .5s;
+
 }
+
+@media all and (max-width: 500px) {
+ .container ul.links li a:hover {
+      color:#dbd7cc;
+      transition: color .5s, margin-left .5s;
+   }
+ }
+
+
 .container .clicar_links {
   width: 507px !important;
   margin-left: -244px !important;
   transition: width .4s, margin-left .4s;
-  margin-top: 0px;
   margin-bottom: 0px;
   align-items: center;
-  height: 46px;
+  height: 45px;
 }
 
+@media all and (max-width: 500px) {
+    .container .clicar_links {
+	width: 253px !important;
+    	margin-left: -115px !important;
+    	transition: width .4s, margin-left .4s;
+        /* margin-top: 0px; */
+        margin-bottom: 0px
+        align-items: center;
+        padding-bottom: em;
+	height:11em
+    }
+}
+
+/*PLAYER*/
+
+
 #bloco_player{
-	margin-top: 6em;
+	margin-top: 4em;
 	margin-left: 5em;
 	width:330px;
 	min-height:400px;
@@ -159,24 +219,87 @@ html, body {
 	border:#666 solid 2px;
 	margin-bottom:34px
 }
+
+@media all and (max-width: 1024px){
+ #bloco_player {
+	margin-top: 4em;
+	margin-left: 5em;
+	width:330px;
+	min-height:400px;
+
+ }
+}
+@media all and (max-width: 768px) {
+     #bloco_player{
+ 	   	height: 317px;   
+     	   	margin-left: 2.9em;
+	        margin-top: 2em;
+		width: 461px; 
+ }
+}
+
+@media all and (max-width: 500px) {
+	#bloco_player{
+ 	   margin-top: 2em;
+	   margin-left: 2.5em;
+           width: 320px;
+ }
+}
+
+#todo {
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    margin-bottom: 43px;
+   
+}
+@media all and (max-width: 500px) {
+	#todo {
+	   display:block;
+	   justify-content: center;
+    	   margin: 0;
+           padding: 0;
+           border: none;
+           outline: none;
+           margin-bottom: 43px; 
+   }
+}
+
+@media all and (max-width: 1440px) {
 #musicas {
-	
-    	margin-top: 6em;
+    	margin-top: 4em;
+  }
 }
+
+@media all and (max-width: 768px) {
+#musicas {
+    	margin-top: 2em;
+  }
+}
+
+@media all and (max-width: 500px) {
+#musicas {
+    margin-top: 0em;
+  }
+}
+
 #audio-image img {
-
     margin-bottom: 0px;
+
 }
 
-#audio-info{
-	text-align:center;
+#audio-info {
+    text-align:center;
 }
 
-#audio-info .artist{
-	font-weight:bold;
+#audio-info .artist {
+     font-weight:bold;
 }
 
-.cover{
+.cover {
 	width:100%;
 	z-index:1;
 }
@@ -184,6 +307,11 @@ html, body {
 .lista_vertical li {
     list-style-type: none;
     margin: 0;
+    font-size: 16px;
+}
+
+ul .lista_vertical{
+
 }
 
 #buttons .material-icons {
@@ -220,11 +348,10 @@ input#volume: {
     width:12px;
 }
 
-#buttons{
-	width:90%;
-	display: block;
-   
-	margin-left: 32px;
+#buttons {
+    width:90%;
+    display: block;
+    margin-left: 32px;
 	
 }
 
@@ -273,23 +400,46 @@ button#next{
 	border:none;
 	width:70px;
 	height:70px;
-	background:unset
-	
+	background:unset	
 	
 }
 
 #playlist li.active{
     background: #edc261;
-}
+    font-size: 15px;
+} 
 
+@media all and (max-width: 500px) {
+    hr {
+     margin: 14px;	
+ }
+}
 
 #playlist {
     list-style-type: none;
-	    margin-top: 2em;
+    margin-top: 2em;
     text-align: center;
 
 }
+@media all and (max-width: 500px) {
+#playlist {
+    list-style-type: none;
+    margin-top: 2em;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 56px;
+    margin-left: 29px;
+  } 
 
+}
+
+@media all and (max-width: 768px) {
+#playlist {
+    padding-left: 0px;
+
+	} 
+
+}
 #playlist li:hover {
     cursor: pointer;
     margin:5px;
