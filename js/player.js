@@ -55,6 +55,6 @@ $('#playlist li').click(function() {
 
 //Controle de volume
 $('#volume').change(function(){
-	audio.volume = parseFloat(this.value / 10);
+	audio.volume = parseFloat(this.value / 1000);
 });
 
