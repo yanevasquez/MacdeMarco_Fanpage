@@ -184,24 +184,24 @@ html, body {
 
 
 .container .clicar_links {
-  width: 507px !important;
-  margin-left: -244px !important;
-  transition: width .4s, margin-left .4s;
-  margin-bottom: 0px;
-  align-items: center;
-  height: 45px;
+        width: 481px !important;
+        margin-left: -218px !important;
+        transition: width .4s, margin-left .4s;
+        margin-bottom: 0px;
+        align-items: center;
+        height: 39px;
 }
 
 @media all and (max-width: 500px) {
     .container .clicar_links {
-	width: 253px !important;
+	    width: 253px !important;
     	margin-left: -115px !important;
     	transition: width .4s, margin-left .4s;
         /* margin-top: 0px; */
         margin-bottom: 0px
         align-items: center;
         padding-bottom: em;
-	height:11em
+	    height:11em
     }
 }
 
@@ -233,8 +233,8 @@ html, body {
 @media all and (max-width: 768px) {
      #bloco_player{
  	   	height: 317px;   
-     	   	margin-left: 2.9em;
-	        margin-top: 2em;
+     	margin-left: 2.9em;
+	    margin-top: 2em;
 		width: 461px; 
  }
 }
