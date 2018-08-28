@@ -321,12 +321,12 @@ ul.links.clicar_links {
 
 
 .container .clicar_links {
-    width: 507px !important;
-    margin-left: -244px !important;
+    width: 458px !important;
+    margin-left: -214px !important;
     transition: width .4s, margin-left .4s; 
     margin-bottom: 0px;
     align-items: center;
-    height: 45px;
+    height: 39px;
 }
 
 @media all and (max-width: 500px) {
