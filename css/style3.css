@@ -242,8 +242,8 @@ html, body {
 @media all and (max-width: 500px) {
 	#bloco_player{
  	   margin-top: 2em;
-	   margin-left: 2.5em;
-           width: 320px;
+	   margin-left: 0.041em;
+       width: 311px;
  }
 }
 
