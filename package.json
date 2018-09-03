@@ -8,5 +8,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanevasquez/MacdeMarco_Fanpage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yanevasquez/MacdeMarco_Fanpage/issues"
+  },
+  "homepage": "https://github.com/yanevasquez/MacdeMarco_Fanpage#readme"
 }
