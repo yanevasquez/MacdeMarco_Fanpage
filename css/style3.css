@@ -79,7 +79,9 @@ html, body {
   width: 40px;
   margin-left: -52px;
   position: fixed;
-  background: #e8b030  
+  background: #e8b030; 
+  cursor:pointer
+    
 }
 
 .container ul.menu li {
@@ -331,6 +333,7 @@ ul .lista_vertical{
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
     color: #ede8d4;
+    cursor: pointer
 }
 
 
@@ -442,7 +445,7 @@ button#next{
 
 }
 #playlist li:hover {
-    cursor: pointer;
+    cursor:pointer;
     margin:5px;
     font-weight: bold;
 }
