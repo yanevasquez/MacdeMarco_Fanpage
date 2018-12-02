@@ -1,7 +1,7 @@
 # Mac deMarco: Fanpage
 
 
-![Screenshot](screenshot.png)
+![Screenshot](img/screenshot.png)
 
 ## Descrição:
 
