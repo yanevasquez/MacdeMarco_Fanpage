@@ -1,7 +1,6 @@
 const descAlbums = document.querySelector('.DescAlbums');
 let response2 = document.querySelector('.response2');
 const lastfmBase = "http://ws.audioscrobbler.com/2.0/?method=album.getinfo";
-const key = "0261334e8697a511e85d2c383d54b254";
 const vglmeJsonBase = "https://www.vagalume.com.br/";
 const vglmeSinger = "mac-demarco/index.js";
 
@@ -33,7 +32,7 @@ function hidePiano() {
 
 function info01() {
     let nomes = ["Here+Comes+the+Cowboy", "This+old+Dog", "Another+One"];
-    fetch(`${lastfmBase}&api_key=${key}&artist=Mac+DeMarco&album=${nomes[0]}&format=json`)
+    fetch(`${lastfmBase}&api_key=0261334e8697a511e85d2c383d54b254&artist=Mac+DeMarco&album=${nomes[0]}&format=json`)
         .then(resposta => resposta.json())
         .then(function(data) {
             let str2 = data.album.tracks.track
