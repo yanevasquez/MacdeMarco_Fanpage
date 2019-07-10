@@ -22,6 +22,8 @@ Foi utilizada a [API-Vagalume](https://api.vagalume.com.br/) para as requisiçõ
 
 ### v.1:
 
+> **[Json da discografia na APIVagalume ficou inacessível desde (julho2018)]**
+
 > Foi utilizada a [API da Vagalume](https://api.vagalume.com.br/) para as requisições da discografia, exibindo informações sobre nome, imagem, ano, todas as músicas de cada álbum e também requisição de todas as letras.
 
 
