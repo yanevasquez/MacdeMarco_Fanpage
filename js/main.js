@@ -1,6 +1,6 @@
 const descAlbums = document.querySelector('.DescAlbums');
 let response2 = document.querySelector('.response2');
-const lastfmBase = "http://ws.audioscrobbler.com/2.0/?method=album.getinfo";
+const lastfmBase = "https://ws.audioscrobbler.com/2.0/?method=album.getinfo";
 const vglmeJsonBase = "https://www.vagalume.com.br/";
 const vglmeSinger = "mac-demarco/index.js";
 
