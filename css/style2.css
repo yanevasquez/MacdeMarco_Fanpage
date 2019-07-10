@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Bungee+Shade|Nanum+Pen+Script');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background: #f2f2f2
+}
+
+section.albums {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.discogr {
+    margin-left: 18em;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+a#pian.material-icons {
+    font-family: 'Material Icons' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px !important;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    background: white;
+    cursor: pointer;
+    color: #141415
+}
+
+.imgAlbum {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 13px;
+    min-height: 9rem;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.info h2 {
+    font-family: 'Bungee', cursive;
+    font-size: 19px;
+    color: rgba(86, 89, 89, 0.9);
+    margin: 0px
+}
+
+.info h3 {
+    font-size: 19px;
+    margin: 20px;
+    color: #29608c;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+}
+
+span:focus,
+span:active {
+    background: #aab4ab
+}
+
+.info span:hover {
+    background-color: #aab4ab
+}
+
+.discogr img {
+    height: 176px;
+    margin: 8px;
+    border-radius: 18px
+}
+
+.info .ul {
+    background: #e8b030
+}
+
+.response {
+    margin: 14px
+}
+
+.response li {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Sanchez', serif;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 22px;
+    margin-top: 16px
+}
+
+ul {
+    list-style-type: none;
+    counter-reset: item
+}
+
+.response ul {
+    column-count: 2;
+    justify-content: center;
+    padding-top: 0px;
+    margin-top: 32px;
+    width: 777px
+}
+
+.response .info {
+    display: flex;
+    border: 1px solid #c5c5c5;
+    border-radius: 7px;
+    background-color: #ffffff;
+    margin: 53px;
+}
+
+.container h1 {
+    color: #e8b030;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Bangers', cursive;
+    margin-top: 96px;
+    margin-bottom: 39px;
+}
+
+@media all and (max-width: 500px) {
+    .container h1 {
+        font-size: 83px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container h1 {
+        font-size: 83px;
+    }
+}
+
+.container {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    padding-top: 13px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+}
+
+.container h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: #a94e90;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center
+}
+
+.title-sub {
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Satisfy', cursive;
+    color: #194161;
+    font-size: 56px;
+    text-align: center
+}
+
+.response2 {
+    display: contents;
+    margin: 38px;
+    padding: 67px;
+    padding-top: 0px;
+    text-align: center;
+    background: #00adff4a;
+    border: 11px solid #484643;
+    border-radius: 11px;
+    border-top: 38px solid;
+    border-right: 10px solid #0a0909;
+    transform: rotate(-355deg);
+    width: 46rem;
+    height: 10rem;
+    margin-left: 43px
+}
+
+.preta {
+    background: black;
+    border-width: -0.8rem 6.4rem 30.2rem;
+    border-style: solid;
+    border-color: #666 #222 #555;
+    height: 76%;
+    transform: translateX(-50%);
+    width: 55px
+}
+
+
+/**MENU**/
+
+.container ul.menu {
+    height: 39px;
+    width: 40px;
+    margin-left: -23px;
+    position: fixed;
+    background: #e8b030
+}
+
+.container ul.menu li {
+    background: #101010;
+    margin: 5px;
+    height: 6px;
+    width: 27px;
+    transition: transform .3s, width .3s;
+}
+
+.container .clicar_menu li:nth-child(1) {
+    top: 18px;
+    transform: rotate(135deg);
+    transition: transform .3s;
+}
+
+.container .clicar_menu li:nth-child(2) {
+    width: 0;
+    transition: width .3s;
+}
+
+.container .clicar_menu li:nth-child(3) {
+    bottom: 18px;
+    transform: rotate(-135deg);
+    transition: transform .3s;
+}
+
+ul.links.clicar_links {
+    margin-left: -50px;
+    margin-left: 2px;
+    padding-top: -21px;
+    border-top: 41;
+    position: fixed: -50px;
+    padding-top: -21px;
+    border-top: 41;
+    position: fixed
+}
+
+.container ul.links {
+    overflow: hidden;
+    background: #e8b030;
+    width: 0px;
+    margin-left: 0px;
+    transition: width .4s, margin-left .4s;
+    position: fixed;
+    padding: 0px;
+    display: inline-flex;
+}
+
+.container ul.links li {
+    margin: 16px;
+}
+
+.container ul.links li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color .5s;
+    text-transform: uppercase;
+    font-size: 31px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Bangers', cursive;
+    transition: color .5s, margin-left .5s;
+    margin-left: 39px;
+}
+
+.container ul.links li a:hover {
+    color: black;
+    margin-left: 20px;
+    transition: color .5s, margin-left .5s;
+}
+
+.container .clicar_links {
+    width: 507px !important;
+    margin-left: -244px !important;
+    transition: width .4s, margin-left .4s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+    height: 46px;
+}
+
+.names-musics {
+    width: 61px;
+}
+
+.names-musics ul {
+    list-style-type: none;
+    margin: 2px;
+    border: 3px solid;
+    padding: 5.5px;
+    box-shadow: 1px 8px 1px rgb(0, 0, 0);
+    height: 184px;
+    width: 56px;
+    background: #ffffff;
+    border-radius: 4px;
+    padding-top: -6px;
+    position: absolute
+}
+
+.response2 li {
+    margin-top: 40px;
+    transform: rotate(-2deg);
+    font-family: monospace;
+    font-size: 13.5px;
+    width: 0px;
+    font-style: oblique
+}
+
+
+/*FOOTER*/
+
+#contato {
+    font-size: 12px;
+    background-color: #0d0d0d;
+    padding: 1.5em 0;
+    text-align: center;
+    letter-spacing: 0px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    padding-bottom: 10px
+}
+
+@media all and (max-width: 500px) {
+    #contato {
+        padding-bottom: 10px;
+        padding-right: 41px;
+        padding-left: 33px;
+        padding-bottom: 10px;
+        padding-top: 23px;
+    }
+}
+
+.container2 p {
+    font-size: 12px;
+    padding-top: 3%;
+}
+
+#contato hr {
+    border-color: rgb(153, 152, 152);
+    margin-top: -7px;
+    margin-left: 156px;
+    margin-right: 165px;
+    margin-bottom: 4px;
+}
+
+#contato span {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold
+}
+
+#contato a .fa-github {
+    font-size: 30px
+}
+
+#contato a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 13px
+}
+
+#contato a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    margin-bottom: 9px;
+}
+
+.logo img {
+    height: 44px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.vagaLogo {
+    width: 89px;
+    height: 80px;
+}
+
+.logo img#lflogo {
+    width: 44px;
+    height: 31px;
+    margin-bottom: 5px;
+}
